@@ -1,1 +1,1 @@
-web: gunicorn Trail1:app
+web: gunicorn runserver:app

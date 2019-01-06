@@ -25,7 +25,7 @@ users = [
 class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}, 200
-        
+
 class User(Resource):
     def get(self, name):
         for user in users:
@@ -37,4 +37,4 @@ api.add_resource(HelloWorld, "/")
 api.add_resource(User, "/user/<string:name>")
 
 
-app.run(debug=True)
+app.run()
