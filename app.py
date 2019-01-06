@@ -14,11 +14,6 @@ users = [
         "name": "Elvin",
         "age": 32,
         "occupation": "Doctor"
-    },
-    {
-        "name": "Jass",
-        "age": 22,
-        "occupation": "Web Developer"
     }
 ]
 
